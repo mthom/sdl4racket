@@ -1,7 +1,7 @@
 #!/usr/bin/env racket
 #lang racket
 
-(require "../src/sdl.rkt"
+(require sdl4racket ; "../src/sdl.rkt"
          racket/fixnum
          images/logos)
 
@@ -17,10 +17,7 @@
 (define (init-screen)
   (sdl-set-video-mode 640 480 32 '(SDL_SWSURFACE SDL_DOUBLEBUF)))
 
-
-
 (define logo (plt-logo))
-
 
 (define (start-main-loop)
   (define screen (init-screen))

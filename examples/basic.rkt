@@ -3,7 +3,7 @@
 
 (require 
     racket/draw
-    "../src/sdl.rkt")
+    sdl4racket)
 
 ;; Demonstrates initialization, surfaces and simple event handling.
 ;; ---------------------------------------------------------------------

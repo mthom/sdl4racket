@@ -4,7 +4,7 @@
 (require 
     racket/draw
     data/queue
-    "../src/sdl.rkt")
+    sdl4racket)
 
 ;; Demonstrates how to launch (and stop) a timer.
 ;; ---------------------------------------------------------------------

@@ -6,7 +6,7 @@
   ffi/cvector
   ffi/unsafe/cvector
   "structs.rkt"
-  "../lib/get-platform-lib.rkt")
+  "lib/get-platform-lib.rkt")
 
 (provide (all-defined-out))
 (provide (struct-out sdl-surface))

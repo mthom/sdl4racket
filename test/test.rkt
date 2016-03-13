@@ -4,7 +4,7 @@
 (require 
     rackunit
     rackunit/text-ui
-    "../src/sdl.rkt")
+    sdl4racket)
     
 (define sdl-video-tests
     (test-suite
